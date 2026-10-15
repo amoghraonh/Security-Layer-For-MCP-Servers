@@ -1,0 +1,40 @@
+{
+  "default_effect": "deny",
+  "trusted_identities": {
+    "local-development-agent": {
+      "allowed_tools": [
+        "get_me",
+        "search_repositories",
+        "get_file_contents",
+        "list_commits",
+        "get_commit",
+        "list_branches",
+        "list_tags",
+        "list_issues",
+        "search_issues",
+        "issue_read",
+        "list_pull_requests",
+        "pull_request_read",
+        "list_workflows",
+        "list_workflow_runs",
+        "list_dependabot_alerts",
+        "list_code_scanning_alerts",
+        "create_or_update_file",
+        "create_branch",
+        "delete_file",
+        "delete_repository",
+        "issue_write",
+        "add_issue_comment",
+        "create_pull_request",
+        "merge_pull_request"
+      ],
+      "allowed_repositories": [
+        "demo-org/airlock-security-lab",
+        "demo-org/airlock-test",
+        "octocat/Hello-World",
+        "github/github-mcp-server"
+      ],
+      "protected_branches": ["main", "master"]
+    }
+  }
+}

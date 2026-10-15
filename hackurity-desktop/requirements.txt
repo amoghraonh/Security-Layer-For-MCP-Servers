@@ -1,0 +1,11 @@
+# Runtime dependencies
+mcp>=2.3,<3.0
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+google-genai>=1.0,<2.0
+python-dotenv>=1.0,<2.0
+argon2-cffi>=23.1,<26.0
+
+# Test dependencies
+pytest>=8.0,<9.0
+httpx>=0.27,<1.0

@@ -1,0 +1,38 @@
+{
+  "inventory_name": "airlock-demo-azure-inventory",
+  "disclaimer": "All values are fictional local demo metadata. No Azure account is queried.",
+  "subscription_id": "00000000-1111-2222-3333-444444444444",
+  "tenant_label": "airlock-demo-tenant",
+  "resources": [
+    {
+      "id": "/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/rg-sx-demo-dev/providers/Microsoft.Compute/virtualMachines/sx-demo-web-01",
+      "name": "sx-demo-web-01",
+      "type": "Microsoft.Compute/virtualMachines",
+      "resource_group": "rg-sx-demo-dev",
+      "location": "eastus2",
+      "environment": "development",
+      "status": "running",
+      "tags": {"application": "airlock-demo", "data_classification": "fictional"}
+    },
+    {
+      "id": "/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/rg-sx-demo-dev/providers/Microsoft.Storage/storageAccounts/sxdemoartifactstore",
+      "name": "sxdemoartifactstore",
+      "type": "Microsoft.Storage/storageAccounts",
+      "resource_group": "rg-sx-demo-dev",
+      "location": "eastus2",
+      "environment": "development",
+      "status": "available",
+      "tags": {"application": "airlock-demo", "data_classification": "fictional"}
+    },
+    {
+      "id": "/subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/rg-sx-demo-security/providers/Microsoft.KeyVault/vaults/sx-demo-vault",
+      "name": "sx-demo-vault",
+      "type": "Microsoft.KeyVault/vaults",
+      "resource_group": "rg-sx-demo-security",
+      "location": "eastus2",
+      "environment": "development",
+      "status": "available",
+      "tags": {"application": "airlock-demo", "data_classification": "fictional"}
+    }
+  ]
+}

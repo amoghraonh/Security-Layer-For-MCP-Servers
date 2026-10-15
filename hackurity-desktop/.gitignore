@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+.pytest_tmp/
+*.py[cod]
+pip-*.log
+management-api.*.log
+data/*.db
+# Recreated from a public upstream repository by scripts/setup_local_data.ps1.
+data/local_mcp_fixture/github-gitignore/
+# Read-only vendor documentation checkouts used during connector evaluation.
+external_connectors/*-source/

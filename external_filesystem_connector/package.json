@@ -1,0 +1,9 @@
+{
+  "name": "sentry-x-filesystem-connector",
+  "private": true,
+  "version": "0.0.0",
+  "engines": { "node": ">=20 <25" },
+  "dependencies": {
+    "@modelcontextprotocol/server-filesystem": "1.0.0"
+  }
+}

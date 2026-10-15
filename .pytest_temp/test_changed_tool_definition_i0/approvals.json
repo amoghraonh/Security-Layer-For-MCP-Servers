@@ -1,0 +1,69 @@
+{
+  "approved_tools": {
+    "get_commit": {
+      "fingerprint": "f018c9df1cf900631062cd89c5916e9ca2cc69bd86a9b25ebf2529ff520f884d",
+      "server_identity": "github-mcp-server"
+    },
+    "get_file_contents": {
+      "fingerprint": "4d2420ca034fd44f05393920c6ab42c92301cfef6945f1cb6179b9bef3218ef3",
+      "server_identity": "github-mcp-server"
+    },
+    "get_me": {
+      "fingerprint": "5edd3e2fd583246958b4ed876bc9ecd66fef386a40c57b39d117d520ffd62ad9",
+      "server_identity": "github-mcp-server"
+    },
+    "issue_read": {
+      "fingerprint": "a6d77524d3d4d2d1586e8d16ceef66e60913680c0dd23786a0b5b12e75bd2f71",
+      "server_identity": "github-mcp-server"
+    },
+    "list_branches": {
+      "fingerprint": "82aa2814e51714353831694fbbe6f623ece724a8a9765722cdfb940643907d07",
+      "server_identity": "github-mcp-server"
+    },
+    "list_code_scanning_alerts": {
+      "fingerprint": "0f497386c62122f3fed19c62910eb96af17a61da8508f75159d9fd2406d6cc51",
+      "server_identity": "github-mcp-server"
+    },
+    "list_commits": {
+      "fingerprint": "d6ac49918d39a1d8403aa7614cc14991c247a934020c05eacacfda60b80d7c45",
+      "server_identity": "github-mcp-server"
+    },
+    "list_dependabot_alerts": {
+      "fingerprint": "16048e999da84fc258e04ba28a60c04de92e5906181aaf9406d31f1a140c26d5",
+      "server_identity": "github-mcp-server"
+    },
+    "list_issues": {
+      "fingerprint": "ff541f0374fa8f8a36e187318d7f81266a0a6df74de1cd60ce3c806885789620",
+      "server_identity": "github-mcp-server"
+    },
+    "list_pull_requests": {
+      "fingerprint": "90c29e25262a0fe86507dcc5707499b534e55ffca39338dbe20385f034719b72",
+      "server_identity": "github-mcp-server"
+    },
+    "list_tags": {
+      "fingerprint": "1689ee263c4f4b2db45a19c3ea5784738f9134ff42a73341611d06bb1660028d",
+      "server_identity": "github-mcp-server"
+    },
+    "list_workflow_runs": {
+      "fingerprint": "d79f2597258a00afe2475cb395fa87faea46911dad67a06e7721b909687433f1",
+      "server_identity": "github-mcp-server"
+    },
+    "list_workflows": {
+      "fingerprint": "06c68ef2481ddd8ae9761d8c9eff0a675776376aac5624288a97de69c82fc128",
+      "server_identity": "github-mcp-server"
+    },
+    "pull_request_read": {
+      "fingerprint": "e8b9a05d28a8b81e96616acb51fb3188272681c4645bf6d39ae94f2ad8f7e8e4",
+      "server_identity": "github-mcp-server"
+    },
+    "search_issues": {
+      "fingerprint": "204b2f8abaf6733d0e11c4eaea89c811336ac4aca95bc346b77264589a22894b",
+      "server_identity": "github-mcp-server"
+    },
+    "search_repositories": {
+      "fingerprint": "1f9a3150f504f9e7c7e0183e839e0b6c3601addc4ef268a7fedf115ed3442f27",
+      "server_identity": "github-mcp-server"
+    }
+  },
+  "version": 1
+}

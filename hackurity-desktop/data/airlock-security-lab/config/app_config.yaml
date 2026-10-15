@@ -1,0 +1,14 @@
+# Application configuration for AIRLOCK Security Lab
+app:
+  name: "airlock-security-lab"
+  version: "1.4.0"
+  environment: "synthetic-sandbox"
+security:
+  enforce_airlock: true
+  policy_id: "AIRLOCK-GITHUB-001"
+  zero_trust_mode: "strict"
+network:
+  listen_port: 8080
+  allowed_hosts:
+    - "127.0.0.1"
+    - "localhost"

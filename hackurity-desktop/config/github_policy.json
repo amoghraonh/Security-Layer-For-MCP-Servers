@@ -1,0 +1,64 @@
+{
+  "policy_id": "AIRLOCK-GITHUB-001",
+  "version": 1,
+  "default_action": "deny",
+  "github": {
+    "allowed_repositories": [
+      "demo-org/airlock-security-lab",
+      "demo-org/airlock-test",
+      "octocat/Hello-World",
+      "github/github-mcp-server"
+    ],
+    "read_operations": {
+      "default_action": "allow",
+      "tools": [
+        "get_me",
+        "search_repositories",
+        "get_file_contents",
+        "list_commits",
+        "get_commit",
+        "list_branches",
+        "list_tags",
+        "list_issues",
+        "search_issues",
+        "issue_read",
+        "list_pull_requests",
+        "search_pull_requests",
+        "pull_request_read",
+        "list_workflows",
+        "list_workflow_runs",
+        "list_dependabot_alerts",
+        "list_code_scanning_alerts"
+      ]
+    },
+    "write_operations": {
+      "default_action": "require_approval",
+      "tools": [
+        "create_or_update_file",
+        "create_branch",
+        "issue_write",
+        "add_issue_comment",
+        "create_pull_request",
+        "merge_pull_request"
+      ]
+    },
+    "protected_branches": [
+      "main",
+      "master"
+    ],
+    "protected_operations": [
+      "delete_repository",
+      "delete_file",
+      "change_repository_visibility",
+      "modify_security_controls"
+    ],
+    "hard_deny_protected_operations": true
+  },
+  "security": {
+    "inspect_tool_arguments": true,
+    "inspect_tool_responses": true,
+    "audit_tool_calls": true,
+    "dlp_secret_detection": true,
+    "prompt_injection_containment": true
+  }
+}

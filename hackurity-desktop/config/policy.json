@@ -1,0 +1,18 @@
+{
+  "default_effect": "deny",
+  "trusted_identities": {
+    "local-development-agent": {
+      "allowed_tools": [
+        "list_resources",
+        "restart_vm",
+        "list_local_repository_files",
+        "read_local_repository_file",
+        "list_synthetic_azure_resources",
+        "get_synthetic_azure_resource"
+      ],
+      "restart_vm_resources": ["dev-vm-01"],
+      "local_repository_path_prefixes": ["README.md", "Global/", "community/"],
+      "synthetic_azure_resources": ["sx-demo-web-01", "sxdemoartifactstore", "sx-demo-vault"]
+    }
+  }
+}
